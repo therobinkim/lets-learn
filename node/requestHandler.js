@@ -1,5 +1,6 @@
 module.exports = function requestHandler(request, response) {
   var data = '';
+  response.write('this is a ' + request.method + ' request\n');
   request.on('data', function requestOnData(chunk) {
     console.log('chunk');
     data += chunk;
