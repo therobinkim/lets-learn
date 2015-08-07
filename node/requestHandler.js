@@ -1,19 +1,26 @@
 'use strict';
 
 module.exports = function requestHandler(request, response) {
+  response.log = function() {
+    for(var i = 0; i < arguments.length - 1; i++) {
+      this.write(arguments[i] + ' ');
+    }
+    this.write(arguments[arguments.length - 1] + '\n');
+  }
+
   var data = '';
-  response.write('this is a ' + request.method + ' request\n');
+  response.log('this is a', request.method, 'request');
   request.on('data', function requestOnData(chunk) {
     console.log('chunk');
     data += chunk;
   });
   request.on('end', function requestOnEnd() {
-    response.write('data: ' + data + '\n');
-    response.write('request.url: ' + request.url + '\n');
-    response.write('time: ' + new Date() + '\n');
+    response.log('data:', data);
+    response.log('request.url:', request.url);
+    response.log('time:', new Date());
     setTimeout(function respondEnd() {
-      response.write('one second later...\n');
-      response.write('time: ' + new Date() + '\n');
+      response.log('one second later...');
+      response.log('time:', new Date());
       response.end('goodbye world');
     }, 1000);
   });
