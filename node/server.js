@@ -7,5 +7,5 @@ var server = http.createServer(requestHandler);
 const PORT = process.env.PORT || 8000;
 
 server.listen(PORT, function listeningOnPort() {
-  console.log('Listening on port ', PORT);
+  console.log('Listening on port', PORT);
 });
