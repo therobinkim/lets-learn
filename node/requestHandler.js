@@ -14,12 +14,12 @@ module.exports = function requestHandler(request, response) {
     console.log('chunk length:', chunk.length, 'bytes, or', chunk.length/1024, 'KiB');
     data += chunk;
   });
-  request.on('end', function requestOnEnd() {
-    console.log('end');
+  request.on('end', function writeResponseFirstHalf() {
+    console.log('end', new Date());
     response.log('data:', data);
     response.log('request.url:', request.url);
     response.log('time:', new Date());
-    setTimeout(function respondEnd() {
+    setTimeout(function writeResponseSecondHalf() {
       response.log('one second later...');
       response.log('time:', new Date());
       response.end('goodbye world');
