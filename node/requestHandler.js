@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = function requestHandler(request, response) {
   var data = '';
   response.write('this is a ' + request.method + ' request\n');
