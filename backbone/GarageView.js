@@ -6,7 +6,9 @@ var GarageView = Backbone.View.extend({
   },
   initialize: function() {
     this.render();
-    this.collection.on('change', this.render, this);
+    // better to use `listenTo` than `on` for event listeners
+    // read more here: http://backbonejs.org/#Events-listenTo
+    this.listenTo(this.collection, 'change', this.render);
   },
   render: function() {
     var domElement = this.$el.html('');
