@@ -1,0 +1,16 @@
+<html>
+  <body>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/underscore/underscore.js"></script>
+    <script src="bower_components/backbone/backbone.js"></script>
+    <script src="GarageView.js"></script>
+    <script>
+      var ruby = new Backbone.Model({ make: 'Ford' });
+      var python = new Backbone.Model({ make: 'Chrysler' });
+
+      var cars = new Backbone.Collection([ ruby, python ]);
+
+      var garageView = new GarageView({ collection: cars });
+    </script>
+  </body>
+</html>

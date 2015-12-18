@@ -1,0 +1,23 @@
+{
+  "name": "backbone",
+  "authors": [
+    "Robin Kim <therobinkim@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "~1.2.3",
+    "jquery": "~2.1.4",
+    "underscore": "~1.8.3"
+  }
+}
