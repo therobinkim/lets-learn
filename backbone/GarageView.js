@@ -8,11 +8,11 @@ var GarageView = Backbone.View.extend({
     // get data from each model (which exists inside the collection)
     this.collection.each(function(model) {
       // with that data, we create some html
+      var carView = new CarView({ model: model }).render();
       // we add that HTML to the body
-      domElement.append(_this.template(model.attributes));
+      domElement.append(carView);
     });
     $('body').append(this.$el);
   },
-  tagName: 'table',
-  template: _.template('<tr><td>Make: <%= make %></td></tr>')
+  tagName: 'table'
 });
