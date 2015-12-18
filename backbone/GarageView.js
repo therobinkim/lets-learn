@@ -6,6 +6,7 @@ var GarageView = Backbone.View.extend({
   },
   initialize: function() {
     this.render();
+    this.collection.on('change', this.render, this);
   },
   render: function() {
     var domElement = this.$el.html('');

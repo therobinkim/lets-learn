@@ -12,6 +12,9 @@
       var cars = new Backbone.Collection([ ruby, python ]);
 
       var garageView = new GarageView({ collection: cars });
+
+      ruby.set('make', 'Fjord'); // this is an appropriate way to manipulate model attributes
+      python.attributes.make = 'Krysler'; // don't manipulate model attributes directly
     </script>
   </body>
 </html>
