@@ -1,4 +1,9 @@
 var GarageView = Backbone.View.extend({
+  events: {
+    click: function() {
+      console.log('garageView was clicked', this);
+    }
+  },
   initialize: function() {
     this.render();
   },
