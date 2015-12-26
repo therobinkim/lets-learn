@@ -14,7 +14,11 @@ A collection of good tools/resources sprinkled throughout the Internet.
     * [Linux Command Line](http://overapi.com/linux/)
   * MDN
 * Interview Questions
-  * [khan4019's Frontend Interview Questions](https://github.com/khan4019/front-end-Interview-Questions)
+  * [Code Wars](http://www.codewars.com/) `technical` `code challenge`
+  * [HackerRank](https://www.hackerrank.com/) `technical` `code challenge`
+  * [Interview Cake](https://www.interviewcake.com/) `technical` `code challenge`
+  * [khan4019's Frontend Interview Questions](https://github.com/khan4019/front-end-Interview-Questions) `technical` `js` `html` `css`
+  * [LeetCode](https://leetcode.com/) `technical` `code challenge`
 * Command Line
   * [explainshell](http://explainshell.com/) write down a command-line to see the help text that matches each argument
   * [Ops School](http://www.opsschool.org/en/latest/unix_101.html)
