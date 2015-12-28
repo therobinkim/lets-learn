@@ -20,6 +20,7 @@ A collection of good tools/resources sprinkled throughout the Internet.
   * [Code Wars](http://www.codewars.com/) `technical` `code challenge`
   * [HackerRank](https://www.hackerrank.com/) `technical` `code challenge`
   * [Interview Cake](https://www.interviewcake.com/) `technical` `code challenge`
+  * [Front-end Job Interview Questions from h5bp](https://github.com/h5bp/Front-end-Developer-Interview-Questions) `technical` `css` `html` `js`
   * [khan4019's Frontend Interview Questions](https://github.com/khan4019/front-end-Interview-Questions) `technical` `js` `html` `css`
   * [LeetCode](https://leetcode.com/) `technical` `code challenge`
 * Command Line
