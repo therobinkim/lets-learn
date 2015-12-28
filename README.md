@@ -13,6 +13,9 @@ A collection of good tools/resources sprinkled throughout the Internet.
     * [jQuery](http://overapi.com/jquery/)
     * [Linux Command Line](http://overapi.com/linux/)
   * MDN
+* Frontend (CSS, DOM, HTML, JavaScript)
+  * [Front-end Handbook](http://www.frontendhandbook.com/) `css` `dom` `html` `js`
+  * [Frontend Masters](https://frontendmasters.com/) `css` `dom` `html` `js` Expert Javascript and Front-End Web Development Training Videos
 * Interview Questions
   * [Code Wars](http://www.codewars.com/) `technical` `code challenge`
   * [HackerRank](https://www.hackerrank.com/) `technical` `code challenge`
@@ -29,7 +32,6 @@ To Do
 * Angular
 * JavaScript
   * Eloquent JavaScript
-  * Frontend Masters
   * TodoMVC
   * You Don't Know JS
 * Newsletters
