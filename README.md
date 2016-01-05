@@ -26,6 +26,9 @@ A collection of good tools/resources sprinkled throughout the Internet.
 * Command Line
   * [explainshell](http://explainshell.com/) write down a command-line to see the help text that matches each argument
   * [Ops School](http://www.opsschool.org/en/latest/unix_101.html)
+* Keyboard Shortcuts
+  * [shortcutFoo](https://www.shortcutfoo.com/) Learn shortcuts and commands
+    * [Sublime Text](https://www.shortcutfoo.com/app/dojos/sublime-text-3-mac)
 * Terminal
   * See _Command Line_
 
