@@ -13,6 +13,8 @@ A collection of good tools/resources sprinkled throughout the Internet.
     * [jQuery](http://overapi.com/jquery/)
     * [Linux Command Line](http://overapi.com/linux/)
   * MDN
+* Database
+  * [SQL Fiddle](http://sqlfiddle.com/) test and share SQL queries
 * Frontend (CSS, DOM, HTML, JavaScript)
   * [Front-end Handbook](http://www.frontendhandbook.com/) `css` `dom` `html` `js`
   * [Frontend Masters](https://frontendmasters.com/) `css` `dom` `html` `js` Expert Javascript and Front-End Web Development Training Videos
