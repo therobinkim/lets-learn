@@ -67,6 +67,7 @@ To Do
   * Boomerang
   * Streak
 * Uncategorized Native Apps
+  * BetterTouchTool
   * Dropbox
   * Evernote
   * Flux
