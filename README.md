@@ -18,6 +18,8 @@ A collection of good tools/resources sprinkled throughout the Internet.
 * Frontend (CSS, DOM, HTML, JavaScript)
   * [Front-end Handbook](http://www.frontendhandbook.com/) `css` `dom` `html` `js`
   * [Frontend Masters](https://frontendmasters.com/) `css` `dom` `html` `js` Expert Javascript and Front-End Web Development Training Videos
+* Git
+  * [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 * Interview Questions
   * [Code Wars](http://www.codewars.com/) `technical` `code challenge`
   * [HackerRank](https://www.hackerrank.com/) `technical` `code challenge`
