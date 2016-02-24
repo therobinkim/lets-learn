@@ -71,6 +71,7 @@ To Do
   * Boomerang
   * Streak
 * Uncategorized Native Apps
+  * Alfred
   * BetterTouchTool
   * Dropbox
   * Evernote
@@ -78,5 +79,6 @@ To Do
   * Howler
   * Slack
   * Time Out
+  * Zoom
 * Uncategorize Web Apps
   * Headspace
