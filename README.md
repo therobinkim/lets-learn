@@ -41,6 +41,7 @@ A collection of good tools/resources sprinkled throughout the Internet.
 
 To Do
 * Angular
+  * John Papa's Angular Style Guide
 * JavaScript
   * Eloquent JavaScript
   * TodoMVC
@@ -56,6 +57,7 @@ To Do
 * Project Examples
   * [Pokename Generator](http://development.pokename.divshot.io/) 2 day solo MVP
 * React
+  * Code Cartoon
 * Twitter Accounts to Follow
 * Unvetted Articles
   * [NYU Advanced JavaScript](https://github.com/advanced-js/syllabus)
