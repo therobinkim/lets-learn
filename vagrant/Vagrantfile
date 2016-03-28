@@ -69,7 +69,8 @@ Vagrant.configure(2) do |config|
   #   sudo apt-get install -y apache2
   # SHELL
 
-  config.vm.post_up_message = "You'll see me after running `vagrant up`!"
+  config.vm.post_up_message = "Welcome to this custom virtual environment.
+Please use the command `vagrant ssh` to access your server."
 
   config.ssh.forward_agent = true
 end
