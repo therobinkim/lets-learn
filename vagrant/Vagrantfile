@@ -68,4 +68,8 @@ Vagrant.configure(2) do |config|
   #   sudo apt-get update
   #   sudo apt-get install -y apache2
   # SHELL
+
+  config.vm.post_up_message = "You'll see me after running `vagrant up`!"
+
+  config.ssh.forward_agent = true
 end
