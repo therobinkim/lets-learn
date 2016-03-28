@@ -1,9 +1,12 @@
 var http = require ('http');
 
-http.createServer(requestHandler)
-  .listen(4567);
+http.createServer(handleRequest)
+  .listen(4567, function() {
+    console.log(`Now listening on port ${PORT}.`);
+  });
 
-function requestHandler(request, response) {
-  console.log('wut?');
-  response.end('hello!');
+
+function handleRequest(request, response) {
+  console.log(`A ${request.method} request came in!`);
+  response.end(`Hello! Thanks for your ${request.method} request!`);
 }
