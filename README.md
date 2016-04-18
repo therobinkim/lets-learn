@@ -28,8 +28,8 @@ A collection of good tools/resources sprinkled throughout the Internet.
   * [HackerRank](https://www.hackerrank.com/) `technical` `code challenge`
   * [Interview Cake](https://www.interviewcake.com/) `technical` `code challenge`
   * [Interview Mocha: Interview Questions for recruiting experienced AngularJS Developers](https://blog.interviewmocha.com/angularjs-interview-questions-for-experienced/) `technical` `angular`
-  * [Front-end Job Interview Questions from h5bp](https://github.com/h5bp/Front-end-Developer-Interview-Questions) `technical` `css` `html` `js`
-  * [khan4019's Frontend Interview Questions](https://github.com/khan4019/front-end-Interview-Questions) `technical` `css` `html` `js`
+  * [h5bp/Front-end Job Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions) `technical` `css` `html` `js`
+  * [khan4019/Frontend Interview Questions](https://github.com/khan4019/front-end-Interview-Questions) `technical` `css` `html` `js`
   * [LeetCode](https://leetcode.com/) `technical` `code challenge`
 * Command Line
   * [explainshell](http://explainshell.com/) write down a command-line to see the help text that matches each argument
