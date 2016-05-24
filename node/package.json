@@ -1,11 +1,11 @@
 {
-  "name": "greenfield",
+  "name": "lets-learn-node",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node --harmony server.js"
+    "start": "node server.js"
   },
   "author": "Robin Kim",
   "license": "ISC"
