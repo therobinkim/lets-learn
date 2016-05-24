@@ -1,12 +1,12 @@
 'use strict';
 
 module.exports = function requestHandler(request, response) {
-  response.log = function() {
+  response.log = function responseLog() {
     for(var i = 0; i < arguments.length - 1; i++) {
       this.write(arguments[i] + ' ');
     }
     this.write(arguments[arguments.length - 1] + '\n');
-  }
+  };
 
   var data = '';
   response.log('this is a', request.method, 'request');
