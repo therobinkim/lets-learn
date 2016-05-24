@@ -1,8 +1,9 @@
 <html>
-  <body>
+  <body onclick="clickHandler()">
     <div id="dog">husky!</div>
     <div id="dog" class="blueOutline">dalmation!</div>
     <div id="bird" class="blueOutline">parrot!</div>
+    <div>click the web page several times</div>
   </body>
   <style>
     div {
@@ -24,6 +25,8 @@
     }
   </style>
   <script>
+    // ===== SYNCHRONOUS-RELATED STUFF ===== //
+
     var canine = document.getElementById('dog');
     console.log('canine', canine);
     // what will this be? hard to predict
@@ -42,6 +45,34 @@
       console.error(error);
       console.log('a variable called `blueOutline` does not exist');
       // hmm, classes don't have side effects like ids
+    }
+
+    // ===== ASYNCHRONOUS-RELATED STUFF ===== //
+
+    var body = document.getElementsByTagName('body')[0];
+    var count = 0;
+
+    function clickHandler() {
+      count += 1;
+      if(count % 2 === 0) {
+        appendCanine();
+      } else {
+        removeCanine();
+      }
+    }
+
+    function appendCanine() {
+      console.log('append');
+      body.appendChild(canine);
+      // canine has been added back to the DOM! take a look at where it gets added
+      // also, the global variable `dog` automatically updates to refer to only 1 DOM element
+    }
+
+    function removeCanine() {
+      console.log('remove');
+      body.removeChild(canine);
+      // canine has been removed from the DOM, but we still have a reference to it!
+      // also, the global variable `dog` automatically updates to refer to 2 DOM elements
     }
   </script>
 </html>
