@@ -23,4 +23,25 @@
       border: 10px solid blue;
     }
   </style>
+  <script>
+    var canine = document.getElementById('dog');
+    console.log('canine', canine);
+    // what will this be? hard to predict
+
+    console.log('dog', dog);
+    // what will this be? whoops, ids create gloval variables
+
+    console.log('bird', bird);
+    // what will this be? yep, it's the same effect as with the previous example
+
+    try {
+      console.log('blueOutline', blueOutline);
+      // what will this be?
+    }
+    catch (error) {
+      console.error(error);
+      console.log('a variable called `blueOutline` does not exist');
+      // hmm, classes don't have side effects like ids
+    }
+  </script>
 </html>
