@@ -13,8 +13,10 @@
 
       var garageView = new GarageView({ collection: cars });
 
-      ruby.set('make', 'Fjord'); // this is an appropriate way to manipulate model attributes
-      python.attributes.make = 'Krysler'; // don't manipulate model attributes directly
+      setTimeout(function() {
+        ruby.set('make', 'Fjord'); // this is an appropriate way to manipulate model attributes
+        python.attributes.make = 'Krysler'; // don't manipulate model attributes directly
+      }, 2500);
     </script>
   </body>
 </html>
