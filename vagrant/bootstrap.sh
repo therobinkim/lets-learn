@@ -5,6 +5,11 @@ sudo apt-get install git
 sudo apt-get install make
 sudo apt-get install curl
 sudo apt-get install mysql-server # mysql v5.5 for ubuntu v12.04 as of 3/27/16
+sudo apt-get install mongodb-server # mongodb v2.0.4 as of 4/1/16
+
+# mongo needs these directories to run
+sudo mkdir /data
+sudo mkdir /data/db
 
 wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash # nvm v0.31.0 as of 3/27/16
 
