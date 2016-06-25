@@ -31,3 +31,19 @@ nvm alias default 4
 
 # Heroku toolent instructions here: https://toolbelt.heroku.com/
 wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+
+# zsh
+sudo apt-get -y install zsh
+
+# Manual oh-my-zsh installation instructions
+git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+# Optionally, backup your existing ~/.zshrc file:
+cp ~/.zshrc ~/.zshrc.orig
+# Create a new zsh configuration file by copying template from oh-my-zsh
+cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+# Change default shell
+sudo chsh -s /bin/zsh vagrant
+
+# Changes vagrant's oh my zsh default theme
+sed -i 's/~\/.rvm\/bin\/rvm-prompt/node --version/g' ~/.oh-my-zsh/themes/3den.zsh-theme
+sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="3den"/g' ~/.zshrc
