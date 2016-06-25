@@ -13,7 +13,7 @@ sudo apt-get update
 # Git v2.9.0 as of 6/25/16
 sudo apt-get -y install git
 
-# MySQL v5.5 for ubuntu v12.04 as of 3/27/16
+# MySQL v5.5 for ubuntu v12.04 as of 6/25/16
 # the extra stuff will skip the interactive screen,
 # which means we don't set a password
 # http://stackoverflow.com/questions/7739645/install-mysql-on-ubuntu-without-password-prompt
