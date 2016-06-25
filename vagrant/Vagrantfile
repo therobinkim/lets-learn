@@ -27,6 +27,7 @@ Vagrant.configure(2) do |config|
   config.vm.synced_folder "..", "/code"
 
   # Enable provisioning with a shell script.
+  # `privileged: false` indicates "don't automatically run in sudo mode"
   config.vm.provision "shell", path: "bootstrap.sh", privileged: false
 
   config.vm.post_up_message = "Welcome to this custom virtual environment.
