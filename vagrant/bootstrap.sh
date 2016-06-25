@@ -27,9 +27,10 @@ sudo mkdir /data/db
 
 # nvm v0.31.0 as of 3/27/16
 wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash
-# load nvm in the future
+# load nvm in the future if using bash as default shell
+# http://superuser.com/questions/187639/zsh-not-hitting-profile
 echo "source /home/vagrant/.nvm/nvm.sh" >> /home/vagrant/.profile
-# load nvm now
+# load nvm now to install Node v4 with nvm
 source /home/vagrant/.profile
 
 # Node v4.4.5 as of 6/22/16
@@ -41,16 +42,10 @@ wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
 # zsh
 sudo apt-get -y install zsh
-
-# Manual oh-my-zsh installation instructions
+# oh-my-zsh
 git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
-# Optionally, backup your existing ~/.zshrc file:
-cp ~/.zshrc ~/.zshrc.orig
-# Create a new zsh configuration file by copying template from oh-my-zsh
-cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 # Change default shell
 sudo chsh -s /bin/zsh vagrant
 
-# Changes vagrant's oh my zsh default theme
+# Change oh-my-zsh's 3den theme to show node version, not rvm-prompt
 sed -i 's/~\/.rvm\/bin\/rvm-prompt/node --version/g' ~/.oh-my-zsh/themes/3den.zsh-theme
-sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="3den"/g' ~/.zshrc

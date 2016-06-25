@@ -30,6 +30,13 @@ Vagrant.configure(2) do |config|
   # `privileged: false` indicates "don't automatically run in sudo mode"
   config.vm.provision "shell", path: "bootstrap.sh", privileged: false
 
+  # Add your name and GitHub-associated email to the `.gitconfig` folder so it
+  # can be copied onto your guest machine.
+  config.vm.provision "file", source: ".gitconfig", destination: "~/.gitconfig"
+
+  config.vm.provision "file", source: ".gitignore_global", destination: "~/.gitignore_global"
+  config.vm.provision "file", source: ".zshrc", destination: "~/.zshrc"
+
   config.vm.post_up_message = "Welcome to this custom virtual environment.
 Please use the command `vagrant ssh` to access your server."
 
