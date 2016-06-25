@@ -10,7 +10,7 @@ sudo apt-get -y install git
 # the extra stuff will skip the interactive screen,
 # which means we don't set a password
 # http://stackoverflow.com/questions/7739645/install-mysql-on-ubuntu-without-password-prompt
-sudo apt-get -y install mysql-server
+sudo DEBIAN_FRONTEND=noninteractive apt-get -y install mysql-server
 
 # MongoDB v2.0.4 as of 4/1/16
 sudo apt-get -y install mongodb-server
