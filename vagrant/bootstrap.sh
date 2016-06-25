@@ -25,5 +25,6 @@ echo "source /home/vagrant/.nvm/nvm.sh" >> /home/vagrant/.profile
 # load nvm now
 source /home/vagrant/.profile
 
-nvm install node
-nvm alias default node # node v5.9 as of 3/27/16
+# Node v4.4.5 as of 6/22/16
+nvm install 4
+nvm alias default 4
