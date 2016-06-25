@@ -9,26 +9,25 @@ To get started:
 * Download Vagrant from https://www.vagrantup.com/downloads.html.
 * Download VirtualBox from https://www.virtualbox.org/.
 * `git clone` this repository.
-* `cd` your local clone of this repository.
+* `cd` into your local clone of this repository.
 * Run `vagrant up`.
 * Afterwards, run `vagrant ssh`
   * If you run into any issues over port 4567, you're likely running another
   vagrant instance that's using the same port. You can either run destroy the
   other vagrant instance or modify the `Vagrantfile` to avoid this port reusage
   issue.
-* After you successfully ssh into your virtual machine, run `cd /vagrant` from
-your guest machine.
+* After you successfully ssh into your virtual machine, your working directory
+will already have been changed to `/code` (on your guest machine).
   * Your host machine (where you ran `vagrant ssh` from) and guest machine (the
   Ubuntu instance accessed via `vagrant ssh`) will have synced folders.
-  * Your host machine's `./` directory (where you ran `vagrant ssh` from and
-  where your `Vagrantfile` exists) is connected to...
-  * Your guest machine's `/vagrant` directory, so you'll have to run `cd
-  /vagrant` from the ssh session.
+  * Your host machine's `../` directory (the directory in which your cloned
+  `lets-learn-vagrant` repo is located in) is connected to...
+  * Your guest machine's `/code` directory.
   * Any changes on the host machine's synced folder will be reflected on the
   guest machine's synced folder.
   * Any changes on the guest machine's synced folder will be reflected on the
   host machine's synced folder.
-* Run `node index.js` from your guest machine.
+* Run `cd lets-learn-vagrant` and `node index.js` from your guest machine.
 * Navigate to [http://localhost:4567/](http://localhost:4567/) via a browser
 from your host machine.
 * If you can see a web page there, you've succeeded!
@@ -44,4 +43,5 @@ directory where `vagrant up` and `vagrant ssh` were initially run) to get rid
 of your virtual machine session, and free up any associated memory from your
 host machine.
 * The virtual machine is running Ubuntu v12.04 (aka Linux)! Command line tools
-like `brew` are not included in this vagrant setup.
+like `brew` are not included in this vagrant setup. Here, `apt-get` is your
+friend.
