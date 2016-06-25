@@ -28,3 +28,6 @@ source /home/vagrant/.profile
 # Node v4.4.5 as of 6/22/16
 nvm install 4
 nvm alias default 4
+
+# Heroku toolent instructions here: https://toolbelt.heroku.com/
+wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
