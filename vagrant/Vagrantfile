@@ -40,5 +40,8 @@ Vagrant.configure(2) do |config|
   config.vm.post_up_message = "Welcome to this custom virtual environment.
 Please use the command `vagrant ssh` to access your server."
 
+  # Enable working with GitHub through host's ssh credentials
+  # https://coderwall.com/p/p3bj2a/cloning-from-github-in-vagrant-using-ssh-agent-forwarding
+  # Must ensure `~/.ssh/id_rsa` is passed through `ssh-add` on OSX host machine first
   config.ssh.forward_agent = true
 end
