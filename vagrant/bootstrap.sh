@@ -1,9 +1,16 @@
 #!/usr/bin/env bash
 
+# allow us to use the `add-apt-repository` command
+sudo apt-get -y install python-software-properties
+
+# Help ensure we install latest version of Git instead of v1.7.9.5
+# http://askubuntu.com/questions/571549/git-1-7-9-5-upgrade-to-current-release-of-git-2-x-on-ubuntu-12-04
+sudo add-apt-repository -y ppa:git-core/ppa
+
 # update list so latest version of following tools are installed
 sudo apt-get update
 
-# Git v1.9 as of 6/24/16 (seems outdated)
+# Git v2.9.0 as of 6/25/16
 sudo apt-get -y install git
 
 # MySQL v5.5 for ubuntu v12.04 as of 3/27/16
