@@ -36,6 +36,7 @@ Vagrant.configure(2) do |config|
 
   config.vm.provision "file", source: ".gitignore_global", destination: "~/.gitignore_global"
   config.vm.provision "file", source: ".zshrc", destination: "~/.zshrc"
+  config.vm.provision "file", source: "3den.zsh-theme", destination: "~/.oh-my-zsh/custom/themes/3den.zsh-theme"
 
   config.vm.post_up_message = "Welcome to this custom virtual environment.
 Please use the command `vagrant ssh` to access your server."

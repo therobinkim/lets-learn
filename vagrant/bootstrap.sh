@@ -43,9 +43,10 @@ wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 # zsh
 sudo apt-get -y install zsh
 # oh-my-zsh
-git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+mkdir ~/.oh-my-zsh
+cd ~/.oh-my-zsh
+git init
+git remote add origin git://github.com/robbyrussell/oh-my-zsh.git
+git pull origin master
 # Change default shell
 sudo chsh -s /bin/zsh vagrant
-
-# Change oh-my-zsh's 3den theme to show node version, not rvm-prompt
-sed -i 's/~\/.rvm\/bin\/rvm-prompt/node --version/g' ~/.oh-my-zsh/themes/3den.zsh-theme
