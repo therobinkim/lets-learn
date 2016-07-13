@@ -1,0 +1,11 @@
+{
+  "name": "lets-learn-error-messages",
+  "version": "1.0.0",
+  "description": "Learn to read error messages by fixing this terribly buggy app",
+  "main": "server/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robin Kim <therobinkim@gmail.com>",
+  "license": "ISC"
+}
