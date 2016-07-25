@@ -52,9 +52,11 @@ To Do
 * Node
   * How to install Node to avoid `sudo` issues
 * Podcasts
-  * Angular Air
+  * 5 Minutes of JavaScript
+  * Developer Tea
   * JavaScript Jabber
   * Programming Throwdown
+  * Software Engineering Daily
 * Project Examples
   * [Pokename Generator](http://development.pokename.divshot.io/) 2 day solo MVP
 * React
