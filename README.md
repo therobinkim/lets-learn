@@ -44,9 +44,11 @@ A collection of good tools/resources sprinkled throughout the Internet.
 * Command Line
   * [explainshell](http://explainshell.com/) write down a command-line to see the help text that matches each argument
   * [Ops School](http://www.opsschool.org/en/latest/unix_101.html)
-* Keyboard Shortcuts
+* Keyboard
   * [shortcutFoo](https://www.shortcutfoo.com/) Learn shortcuts and commands
     * [Sublime Text](https://www.shortcutfoo.com/app/dojos/sublime-text-3-mac)
+  * [Sublime Tutor](https://sublimetutor.com/) An interactive in-editor keyboard shortcuts tutorial for Sublime Text 3
+  * [typing.io](https://typing.io/) Typing Practice for Programmers
 * Reactive Programming
   * [RxMarbles](http://rxmarbles.com/) Interactive diagrams of Rx Observables
 * Terminal
