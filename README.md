@@ -25,6 +25,9 @@ A collection of good tools/resources sprinkled throughout the Internet.
 * Frontend (CSS, DOM, HTML, JavaScript)
   * [Front-end Handbook](http://www.frontendhandbook.com/) `css` `dom` `html` `js`
   * [Frontend Masters](https://frontendmasters.com/) `css` `dom` `html` `js` Expert Javascript and Front-End Web Development Training Videos
+* Fundamentals
+  * [JSDN](https://github.com/mindeavor/jsdn) JavaScript Diagram Notation
+  * [Python Tutor](http://pythontutor.com/) Visualize Python, Java, JavaScript, TypeScript, Ruby, C, and C++ code execution
 * Git
   * [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 * Interview Questions
