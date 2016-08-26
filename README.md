@@ -16,6 +16,8 @@ A collection of good tools/resources sprinkled throughout the Internet.
     * [jQuery](http://overapi.com/jquery/)
     * [Linux Command Line](http://overapi.com/linux/)
   * MDN
+* Architecture
+  * [The Architecture of Open Source Applications](http://aosabook.org/en/index.html)
 * Database
   * [SQL Fiddle](http://sqlfiddle.com/) test and share SQL queries
 * Frontend (CSS, DOM, HTML, JavaScript)
