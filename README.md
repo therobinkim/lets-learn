@@ -19,6 +19,8 @@ A collection of good tools/resources sprinkled throughout the Internet.
 * Architecture
   * [The Architecture of Open Source Applications](http://aosabook.org/en/index.html)
 * Database
+  * [Essential SQL](http://www.essentialsql.com/getting-started/) Get Started Learning SQL
+  * [PostgreSQL Exercises](https://pgexercises.com/)
   * [SQL Fiddle](http://sqlfiddle.com/) test and share SQL queries
 * Frontend (CSS, DOM, HTML, JavaScript)
   * [Front-end Handbook](http://www.frontendhandbook.com/) `css` `dom` `html` `js`
