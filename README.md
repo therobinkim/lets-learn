@@ -30,6 +30,9 @@ A collection of good tools/resources sprinkled throughout the Internet.
   * [Python Tutor](http://pythontutor.com/) Visualize Python, Java, JavaScript, TypeScript, Ruby, C, and C++ code execution
 * Git
   * [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
+* Interview Guide
+  * [andreis/interview](https://github.com/andreis/interview)
+  * [adam-s/js-interview-review](https://github.com/adam-s/js-interview-review) What Do I Need to Know to Ace a JavaScript Interview?
 * Interview Questions
   * [Code Wars](http://www.codewars.com/) `technical` `code challenge`
   * [HackerRank](https://www.hackerrank.com/) `technical` `code challenge`
