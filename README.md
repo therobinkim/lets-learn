@@ -54,12 +54,19 @@ A collection of good tools/resources sprinkled throughout the Internet.
   * [React Storybook](https://github.com/kadirahq/react-storybook) Isolate your React UI Component development from the main app
 * Reactive Programming
   * [RxMarbles](http://rxmarbles.com/) Interactive diagrams of Rx Observables
+* Regular Expressions (RegEx)
+  * [RegexGenerator++](http://regex.inginf.units.it/) Automatic Generation of Text Extraction Patterns from Examples
+* System Design
+  * [HiredInTech](http://www.hiredintech.com/system-design/) Learn our 4-step process to cracking any system design question.
 * Terminal
   * See _Command Line_
+* Tools for Practice
+  * [JSONPlaceholder](http://jsonplaceholder.typicode.com/) fake online REST API for testing and prototyping
 
 To Do
 * JavaScript
   * Eloquent JavaScript
+  * Superhero.js
   * TodoMVC
   * You Don't Know JS
 * Newsletters
@@ -72,10 +79,6 @@ To Do
   * JavaScript Jabber
   * Programming Throwdown
   * Software Engineering Daily
-* Project Examples
-  * [Pokename Generator](http://development.pokename.divshot.io/) 2 day solo MVP
-* React
-  * Code Cartoon
 * Twitter Accounts to Follow
 * Unvetted Articles
   * [NYU Advanced JavaScript](https://github.com/advanced-js/syllabus)
