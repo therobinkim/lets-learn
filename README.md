@@ -16,8 +16,10 @@ A collection of good tools/resources sprinkled throughout the Internet.
     * [jQuery](http://overapi.com/jquery/)
     * [Linux Command Line](http://overapi.com/linux/)
   * MDN
-* Architecture
+* Architecture/Design
+  * [API Stylebook: Design Guidelines](http://apistylebook.com/design/guidelines/)
   * [The Architecture of Open Source Applications](http://aosabook.org/en/index.html)
+  * [HiredInTech](http://www.hiredintech.com/system-design/) Learn our 4-step process to cracking any system design question.  
 * Database
   * [Essential SQL](http://www.essentialsql.com/getting-started/) Get Started Learning SQL
   * [PostgreSQL Exercises](https://pgexercises.com/)
@@ -56,8 +58,6 @@ A collection of good tools/resources sprinkled throughout the Internet.
   * [RxMarbles](http://rxmarbles.com/) Interactive diagrams of Rx Observables
 * Regular Expressions (RegEx)
   * [RegexGenerator++](http://regex.inginf.units.it/) Automatic Generation of Text Extraction Patterns from Examples
-* System Design
-  * [HiredInTech](http://www.hiredintech.com/system-design/) Learn our 4-step process to cracking any system design question.
 * Terminal
   * See _Command Line_
 * Tools for Practice
