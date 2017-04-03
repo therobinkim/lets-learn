@@ -8,6 +8,8 @@ module.exports = function requestHandler(request, response) {
     this.write(arguments[arguments.length - 1] + '\n');
   };
 
+  response.setHeader('Access-Control-Allow-Origin', '*');
+
   var data = '';
   response.log('this is a', request.method, 'request');
   request.on('data', function requestOnData(chunk) {
