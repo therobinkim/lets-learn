@@ -18,7 +18,7 @@ th {
   <tr>
     <th>method</th>
     <th>url</th>
-    <th>will send back some plain text of</th>
+    <th>which will send back some plain text of</th>
     <th>description</th>
   </tr>
   <tr>
@@ -45,7 +45,7 @@ th {
   <tr>
     <th>method</th>
     <th>url</th>
-    <th>will send back some plain text of</th>
+    <th>which will send back some plain text of</th>
     <th>description</th>
   </tr>
   <tr>
@@ -68,19 +68,24 @@ th {
   </tr>
 </table>
 
-<p>...but CORS headers aren't sent to you... which means you can't access these API endpoints from any other website. Sorry!</p>
+<p>...but CORS headers aren't sent to you... which means you can't access these API endpoints from your browser if you're located at any other website. Sorry!</p>
 
-<p>You could still query these endpoints via <code>cURL</code> or Postman or from the dev tools console (while you're at this site). Otherwise, use the JSONP interface instead.</p>
+<p>You could still query these endpoints via <code>cURL</code> or Postman or from the dev tools console (if your browser is located at <a href="https://lets-learn-jsonp.herokuapp.com/">https://lets-learn-jsonp.herokuapp.com/</a>). Otherwise, use the JSONP interface instead. For an example of how JSONP can be used, look at the bottom of the source code for <a href="https://therobinkim.github.io/lets-learn-jsonp/">https://therobinkim.github.io/lets-learn-jsonp/</a>.</p>
 
-<p>Here's an example of how the JSONP interface can be used:</p>
+<p>Here's another example of how you would get data with this JSONP interface.</p>
 
-<xmp><!-- where the following code is located at yourwebsite.com/index.html -->
+<xmp><!-- this code is also located at http://therobinkim.github.io/json-example.html -->
   <html>
     <body>
+      <span class="replacedByTime">This will get replaced by the time in 2 seconds!</span>
       <script>
-        var processTime = function(time) {
-          console.log(`The time on the server is ${time}`);
-        }
+        var processTime = function({ time }) {
+          var message = `When you loaded this page, the time on the server was ${time}!`;
+          console.log(message);
+          setTimeout(() => {
+            document.getElementsByClassName('replacedByTime')[0].innerHTML = message;
+          }, 2000);
+        };
       </script>
       <script src="https://lets-learn-jsonp.herokuapp.com/api/time?callback=processTime"></script>
     </body>

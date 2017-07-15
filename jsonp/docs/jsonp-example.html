@@ -1,0 +1,15 @@
+<html>
+  <body>
+    <span class="replacedByTime">This will get replaced by the time in 2 seconds!</span>
+    <script>
+      var processTime = function({ time }) {
+        var message = `When you loaded this page, the time on the server was ${time}!`;
+        console.log(message);
+        setTimeout(() => {
+          document.getElementsByClassName('replacedByTime')[0].innerHTML = message;
+        }, 2000);
+      };
+    </script>
+    <script src="https://lets-learn-jsonp.herokuapp.com/api/time?callback=processTime"></script>
+  </body>
+</html>
