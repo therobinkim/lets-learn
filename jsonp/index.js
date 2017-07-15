@@ -12,7 +12,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use(express.static('public'));
+app.use(express.static('docs'));
 
 app.get('/api/time', (req, res) => {
   const data = `{ "time": "${Date()}" }`;
