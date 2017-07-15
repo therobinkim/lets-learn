@@ -23,7 +23,7 @@ th {
   </tr>
   <tr>
     <td><code>GET</code></td>
-    <td><code>http://lets-learn-jsonp.herokuapp.com/api/time?callback=whatever</code></td>
+    <td><code>https://lets-learn-jsonp.herokuapp.com/api/time?callback=whatever</code></td>
     <td>
       <code>whatever({ "time": "<span class="time">Fri Jul 14 2017 17:42:35 GMT-0500 (CDT)</span>" });</code>
     </td>
@@ -31,7 +31,7 @@ th {
   </tr>
   <tr>
     <td><code>GET</code></td>
-    <td><code>http://lets-learn-jsonp.herokuapp.com/api/viewCount?callback=whatever</code></td>
+    <td><code>https://lets-learn-jsonp.herokuapp.com/api/viewCount?callback=whatever</code></td>
     <td>
       <code>whatever({ "viewCount": <span class="viewCount">999</span> });</code>
     </td>
@@ -50,7 +50,7 @@ th {
   </tr>
   <tr>
     <td><code>GET</code></td>
-    <td><code>http://lets-learn-jsonp.herokuapp.com/api/time</code></td>
+    <td><code>https://lets-learn-jsonp.herokuapp.com/api/time</code></td>
     <td>
       <code>{ "time": "<span class="time">Fri Jul 14 2017 17:42:35 GMT-0500 (CDT)</span>" }</code>
     </td>
@@ -58,7 +58,7 @@ th {
   </tr>
   <tr>
     <td><code>GET</code></td>
-    <td><code>http://lets-learn-jsonp.herokuapp.com/api/viewCount</code></td>
+    <td><code>https://lets-learn-jsonp.herokuapp.com/api/viewCount</code></td>
     <td>
       <code>{ "viewCount": <span class="viewCount">999</span> }</code>
     </td>
@@ -82,7 +82,7 @@ th {
           console.log(`The time on the server is ${time}`);
         }
       </script>
-      <script src="http://lets-learn-jsonp.herokuapp.com/api/time?callback=processTime"></script>
+      <script src="https://lets-learn-jsonp.herokuapp.com/api/time?callback=processTime"></script>
     </body>
   </html>
 </xmp>
@@ -107,5 +107,5 @@ th {
     };
   };
 </script>
-<script src="http://lets-learn-jsonp.herokuapp.com/api/time?callback=displayTime"></script>
-<script src="http://lets-learn-jsonp.herokuapp.com/api/viewCount?callback=displayViewCount"></script>
+<script src="https://lets-learn-jsonp.herokuapp.com/api/time?callback=displayTime"></script>
+<script src="https://lets-learn-jsonp.herokuapp.com/api/viewCount?callback=displayViewCount"></script>
