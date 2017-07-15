@@ -10,7 +10,9 @@ th {
 }
 </style>
 
-<p>Welcome!</p>
+<p>Welcome! Do you want to see some JSONP in action and be able to interact with a server that has JSONP endpoints already available? You've come to the right place!</p>
+
+<h1>Description of API Endpoints</h1>
 
 <p>There are two JSONP routes available:</p>
 
@@ -68,13 +70,15 @@ th {
   </tr>
 </table>
 
-<p>...but CORS headers aren't sent to you... which means you can't access these API endpoints from your browser if you're located at any other website. Sorry!</p>
+<p>...but CORS headers aren't sent to you... which means you can't access these API endpoints from your browser if you're located at any other website. Sorry! You could still query these endpoints via <code>cURL</code>, Postman, any server, or from the dev tools console (if your browser is located at <a href="https://lets-learn-jsonp.herokuapp.com/">https://lets-learn-jsonp.herokuapp.com/</a>).</p>
 
-<p>You could still query these endpoints via <code>cURL</code> or Postman or from the dev tools console (if your browser is located at <a href="https://lets-learn-jsonp.herokuapp.com/">https://lets-learn-jsonp.herokuapp.com/</a>). Otherwise, use the JSONP interface instead. For an example of how JSONP can be used, look at the bottom of the source code for <a href="https://therobinkim.github.io/lets-learn-jsonp/">https://therobinkim.github.io/lets-learn-jsonp/</a>.</p>
+<h1>JSONP Examples</h1>
 
-<p>Here's another example of how you would get data with this JSONP interface.</p>
+<p>If you want to access the superbly awesome information offered by the <strong>lets-learn-jsonp</strong> server via a browser, you can still do so via its JSONP interface! Look at the bottom of the source code of <a href="https://therobinkim.github.io/lets-learn-jsonp/">https://therobinkim.github.io/lets-learn-jsonp/</a> for an example of how JSONP can be used to circumvent the same origin policy.</p>
 
-<xmp><!-- this code is also located at http://therobinkim.github.io/lets-learn-jsonp/jsonp-example.html -->
+<p>Here's another example of how you would get data with this JSONP interface. The code below can also be found in the wild at <a href="http://therobinkim.github.io/lets-learn-jsonp/jsonp-example.html">http://therobinkim.github.io/lets-learn-jsonp/jsonp-example.html</a></p>
+
+<xmp>
   <html>
     <body>
       <span class="replacedByTime">This will get replaced by the time in 2 seconds!</span>
@@ -93,9 +97,11 @@ th {
 </xmp>
 <!-- the whole world says don't use xmp, but oh well https://developer.mozilla.org/en-US/docs/Web/HTML/Element/xmp -->
 
-<p>Note: Everytime you refresh this page, there's a good chance you're pinging the server 3 times.. which means the <code>viewCount</code> will increment by more than 1.</p>
+<h1>Notes</h1>
 
-<p>Created by <a href="https://github.com/therobinkim/">Robin Kim</a> at <a href="http://www.hackreactor.com/">Hack Reactor</a>. Contribute on GitHub via pull requests <a href="https://github.com/therobinkim/lets-learn-jsonp">here</a>.</p>
+<p>Everytime you refresh this page, there's a good chance you're pinging the server 3 times.. which means the <code>viewCount</code> will increment by more than 1.</p>
+
+<p>This mini project was created by <a href="https://github.com/therobinkim/">Robin Kim</a> at <a href="http://www.hackreactor.com/">Hack Reactor</a>. Contribute on GitHub via pull requests <a href="https://github.com/therobinkim/lets-learn-jsonp">here</a>.</p>
 
 <script>
   const displayTime = displaySomething('time');
