@@ -1,0 +1,24 @@
+{
+  "name": "lets-learn-jsonp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js --ignore public/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/therobinkim/lets-learn-jsonp.git"
+  },
+  "author": "Robin Kim <therobinkim@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/therobinkim/lets-learn-jsonp/issues"
+  },
+  "homepage": "https://github.com/therobinkim/lets-learn-jsonp#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}

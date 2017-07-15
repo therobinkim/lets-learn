@@ -1,0 +1,111 @@
+<style>
+table {
+  border: 1px solid black
+}
+th, td {
+  border: 1px dotted black
+}
+th {
+  text-align: left
+}
+</style>
+
+<p>Welcome!</p>
+
+<p>There are two JSONP routes available:</p>
+
+<table>
+  <tr>
+    <th>method</th>
+    <th>url</th>
+    <th>will send back some plain text of</th>
+    <th>description</th>
+  </tr>
+  <tr>
+    <td><code>GET</code></td>
+    <td><code>/api/time?callback=whatever</code></td>
+    <td>
+      <code>whatever({ "time": "<span class="time">Fri Jul 14 2017 17:42:35 GMT-0500 (CDT)</span>" });</code>
+    </td>
+    <td>where you can use any string to replace <code>whatever</code> and <code>time</code> is the evaluation of <code>Date()</code> on the server</td>
+  </tr>
+  <tr>
+    <td><code>GET</code></td>
+    <td><code>/api/viewCount?callback=whatever</code></td>
+    <td>
+      <code>whatever({ "viewCount": <span class="viewCount">999</span> });</code>
+    </td>
+    <td>where you can use any string to replace <code>whatever</code> and <code>viewCount</code> represents how many HTTP requests this server has responded to (at any route) since it was last restarted</td>
+  </tr>
+</table>
+
+<p>In fact, you can ping these API endpoints without the <code>?callback=whatever</code> query string attached:</p>
+
+<table>
+  <tr>
+    <th>method</th>
+    <th>url</th>
+    <th>will send back some plain text of</th>
+    <th>description</th>
+  </tr>
+  <tr>
+    <td><code>GET</code></td>
+    <td><code>/api/time</code></td>
+    <td>
+      <code>{ "time": "<span class="time">Fri Jul 14 2017 17:42:35 GMT-0500 (CDT)</span>" }</code>
+    </td>
+    <td>where <code>time</code> is the evaluation of <code>Date()</code> on the server</td>
+  </tr>
+  <tr>
+    <td><code>GET</code></td>
+    <td><code>/api/viewCount</code></td>
+    <td>
+      <code>{ "viewCount": <span class="viewCount">999</span> }</code>
+    </td>
+    <td>
+      where <code>viewCount</code> represents how many HTTP requests this server has responded to (at any route) since it was last restarted
+    </td>
+  </tr>
+</table>
+
+<p>...but CORS headers aren't sent to you... which means you can't access these API endpoints from any other website. Sorry!</p>
+
+<p>You could still query these endpoints via <code>cURL</code> or Postman or from the dev tools console (while you're at this site). Otherwise, use the JSONP interface instead.</p>
+
+<p>Here's an example of how the JSON interface can be used:</p>
+
+<xmp><!-- where the following code is located at yourwebsite.com/index.html -->
+  <html>
+    <body>
+      <script>
+        var processTime = function(time) {
+          console.log(`The time on the server is ${time}`);
+        }
+      </script>
+      <script src="http://lets-learn-jsonp.herokuapp.com/api/time?callback=processTime"></script>
+    </body>
+  </html>
+</xmp>
+<!-- the whole world says don't use xmp, but oh well https://developer.mozilla.org/en-US/docs/Web/HTML/Element/xmp -->
+
+<p>Note: everytime you refresh this page, there's a good chance you're pinging the server 3 times.. which means the <code>viewCount</code> will increment by more than 1.</p>
+
+<p>Created by <a href="https://github.com/therobinkim/">Robin Kim</a> at <a href="http://www.hackreactor.com/">Hack Reactor</a>. Contribute on GitHub via pull requests <a href="https://github.com/therobinkim/lets-learn-jsonp">here</a>.</p>
+
+<script>
+  const displayTime = displaySomething('time');
+  const displayViewCount = displaySomething('viewCount');
+
+  function displaySomething(name) {
+    return function(data) {
+      [].forEach.call(
+        document.getElementsByClassName(name),
+        function(ele) {
+          ele.innerHTML = data[name];
+        }
+      );
+    };
+  };
+</script>
+<script src="/api/time?callback=displayTime"></script>
+<script src="/api/viewCount?callback=displayViewCount"></script>
