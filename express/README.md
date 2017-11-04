@@ -2,7 +2,9 @@
 
 Here, you are provided a barebones app that uses Express.
 
-Finish `/server/express.js` such that you can replace line 2 of `/server/index.js` with line 3.
+First, start the server by running `npm run dev` (which will run `nodemon server/index.js`). You can inspect the existing functionality by launching http://localhost:8542/ in your browser and interacting with the server's `/api/cats` endpoint with [Postman](https://www.getpostman.com/) (or cURL or some other similar tool).
+
+Now, for the actual exercise: finish `/server/express.js` such that you can replace line 2 of `/server/index.js` with line 3.
 
 Prerequisites:
 * Knowledge of Node.js (eg, how to create an http server, handling requests, etc)
