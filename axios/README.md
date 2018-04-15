@@ -22,4 +22,5 @@ Write some code in `axios.js` to remove these errors and restore the basic funct
 Check the solution branch for my quick implementation via `git checkout solution`.
 
 1. DO use native JavaScript Promises.
+  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
 1. DON'T use jQuery's Promises.
