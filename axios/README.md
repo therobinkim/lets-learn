@@ -13,7 +13,7 @@ After you `npm install`, run `npm start`, which should run `live-server`. This s
 
 Take a look at `index.js` to see the code that triggered these `console.log`s.
 
-Next, comment out line 8 of `index.html` and uncomment line 9 of `index.html`.
+Next, comment out line 9 of `index.html` and uncomment line 10 of `index.html`.
 
 When you refresh `index.html` in the browser, your Developer's Tools Console should report errors related to `axios.get()` and `axios.post()` not existing.
 
