@@ -27,6 +27,7 @@ A collection of good tools/resources sprinkled throughout the Internet.
   * [PostgreSQL Exercises](https://pgexercises.com/)
   * [SQL Fiddle](http://sqlfiddle.com/) test and share SQL queries
   * [PostgreSQL Documentation](https://www.postgresql.org/docs/current/index.html) this is a good read even if you aren't working with PostgreSQL specifically
+  * [Use The Index, Luke](https://use-the-index-luke.com/) SQL tuning and indexing
 * Frontend (CSS, DOM, HTML, JavaScript)
   * [Front-end Handbook](http://www.frontendhandbook.com/) `css` `dom` `html` `js`
   * [Frontend Masters](https://frontendmasters.com/) `css` `dom` `html` `js` Expert Javascript and Front-End Web Development Training Videos
