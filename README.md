@@ -11,7 +11,7 @@ A collection of good tools/resources sprinkled throughout the Internet.
   * [John Papa's AngularJS Style Guide](https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md)
   * [Factory vs Service](https://toddmotto.com/factory-versus-service)
 * API
-  * [Dash](https://kapeli.com/dash) Dash is an API Documentation Browser and Code Snippet Manager. Dash stores snippets of code and instantly searches offline documentation sets for 150+ APIs (for a full list, see below). You can even generate your own docsets or request docsets to be included.
+  * [Dash](https://kapeli.com/dash) Dash is an API Documentation Browser and Code Snippet Manager. Dash stores snippets of code and instantly searches offline documentation sets for 150+ APIs (for a full list, see below). You can even generate your own docsets or request docsets to be included. Windows, Linux, or browser options are available [here](https://zealdocs.org/).
   * [OverAPI](http://overapi.com/) Collecting All Cheat Sheets
     * [jQuery](http://overapi.com/jquery/)
     * [Linux Command Line](http://overapi.com/linux/)
