@@ -37,7 +37,6 @@ A collection of good tools/resources sprinkled throughout the Internet.
   * [Frontend Masters](https://frontendmasters.com/) `css` `dom` `html` `js` Expert Javascript and Front-End Web Development Training Videos
 
 * Fundamentals
-  * [JSDN](https://github.com/mindeavor/jsdn) JavaScript Diagram Notation
   * [Python Tutor](http://pythontutor.com/) Visualize Python, Java, JavaScript, TypeScript, Ruby, C, and C++ code execution
 
 * Git
@@ -56,6 +55,10 @@ A collection of good tools/resources sprinkled throughout the Internet.
   * [h5bp/Front-end Job Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions) `technical` `css` `html` `js`
   * [khan4019/Frontend Interview Questions](https://github.com/khan4019/front-end-Interview-Questions) `technical` `css` `html` `js`
   * [LeetCode](https://leetcode.com/) `technical` `code challenge`
+
+* JavaScript
+  * [JSDN](https://github.com/mindeavor/jsdn) JavaScript Diagram Notation; extremely helpful when learning about "pass by value" vs "pass by reference"
+  * [What the heck is the event loop, anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
 
 * Command Line
   * [explainshell](http://explainshell.com/) write down a command-line to see the help text that matches each argument
