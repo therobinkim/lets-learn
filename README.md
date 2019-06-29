@@ -72,6 +72,8 @@ A collection of good tools/resources sprinkled throughout the Internet.
     * [Sublime Text](https://www.shortcutfoo.com/app/dojos/sublime-text-3-mac)
   * [Sublime Tutor](https://sublimetutor.com/) An interactive in-editor keyboard shortcuts tutorial for Sublime Text 3
   * [typing.io](https://typing.io/) Typing Practice for Programmers
+  * [VIM Adventures](https://vim-adventures.com/)
+  * Run `vimtutor` in your terminal
 
 * React
   * [Code Cartoons](https://code-cartoons.com/) Learn code concepts via cartoon
