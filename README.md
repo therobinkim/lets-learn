@@ -98,38 +98,11 @@ To Do
   * Eloquent JavaScript
   * Superhero.js
   * TodoMVC
-  * You Don't Know JS
-* Newsletters
-  * JavaScript Weekly
 * Node
   * How to install Node to avoid `sudo` issues
 * Podcasts
-  * 5 Minutes of JavaScript
   * Developer Tea
   * JavaScript Jabber
   * Programming Throwdown
   * Software Engineering Daily
 * Twitter Accounts to Follow
-* Unvetted Articles
-  * [NYU Advanced JavaScript](https://github.com/advanced-js/syllabus)
-  * [Want to learn JavaScript in 2015/2016?](https://medium.com/@_cmdv_/i-want-to-learn-javascript-in-2015-e96cd85ad225)
-
-
-### Non-Coding
-
-To Do
-* Gmail
-  * Boomerang
-  * Streak
-* Uncategorized Native Apps
-  * Alfred
-  * BetterTouchTool
-  * Dropbox
-  * Evernote
-  * Flux
-  * Howler
-  * Slack
-  * Time Out
-  * Zoom
-* Uncategorize Web Apps
-  * Headspace
