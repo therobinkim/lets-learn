@@ -46,6 +46,7 @@ A collection of good tools/resources sprinkled throughout the Internet.
 * Git
   * [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
   * [Oh, shit, git!](http://ohshitgit.com/)
+  * [Write better commits](https://github.com/therobinkim/git-commit-template/blob/master/.gitmessage)
 
 * Interview Guide
   * [andreis/interview](https://github.com/andreis/interview)
