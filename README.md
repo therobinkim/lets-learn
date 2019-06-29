@@ -25,6 +25,10 @@ A collection of good tools/resources sprinkled throughout the Internet.
   * [HiredInTech](http://www.hiredintech.com/system-design/) Learn our 4-step process to cracking any system design question. 
   * [Grokking the System Design Interview](http://systemdesigninterview.com)
 
+* Command Line
+  * [explainshell](http://explainshell.com/) write down a command-line to see the help text that matches each argument
+  * [Ops School](http://www.opsschool.org/en/latest/unix_101.html)
+
 * Database
   * [Essential SQL](http://www.essentialsql.com/getting-started/) Get Started Learning SQL
   * [PostgreSQL Exercises](https://pgexercises.com/)
@@ -60,10 +64,6 @@ A collection of good tools/resources sprinkled throughout the Internet.
   * [JSDN](https://github.com/mindeavor/jsdn) JavaScript Diagram Notation; extremely helpful when learning about "pass by value" vs "pass by reference"
   * [What the heck is the event loop, anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
 
-* Command Line
-  * [explainshell](http://explainshell.com/) write down a command-line to see the help text that matches each argument
-  * [Ops School](http://www.opsschool.org/en/latest/unix_101.html)
-
 * Keyboard
   * [shortcutFoo](https://www.shortcutfoo.com/) Learn shortcuts and commands
     * [Sublime Text](https://www.shortcutfoo.com/app/dojos/sublime-text-3-mac)
@@ -73,6 +73,7 @@ A collection of good tools/resources sprinkled throughout the Internet.
 * React
   * [Code Cartoons](https://code-cartoons.com/) Learn code concepts via cartoon
   * [React Storybook](https://github.com/kadirahq/react-storybook) Isolate your React UI Component development from the main app
+  * [Kent C Dodd's blog](https://kentcdodds.com/)
 
 * Reactive Programming
   * [RxMarbles](http://rxmarbles.com/) Interactive diagrams of Rx Observables
