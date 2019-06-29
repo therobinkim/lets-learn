@@ -8,13 +8,7 @@
 
 ### Background
 
-`vi` is a text editor that is built into many operating systems and henceforth built into terminals. It's rather plain and can be intimidating at first, but can be a lot of fun to learn, and when mastered, significantly improve your ability to edit text.
-
-
-
-### Alternatives
-
-`vim` is "an improved version of the `vi` editor" while `emacs` and `nano` are some alternatives. My Macbook Pro runs `vim` whenever try to run `vi`, so we'll focus our discussion on `vim`.
+`vim` is a text editor that is built into many operating systems and henceforth built into terminals. It's rather plain and can be intimidating at first, but can be a lot of fun to learn, and when mastered, significantly improve your ability to edit text.
 
 
 
@@ -70,9 +64,11 @@ To learn more about `vim` so you can thoroughly impress your friends, family, an
 
 ### Cheat Sheets
 
-* [Vi Cheat Sheet](http://www.lagmonster.org/docs/vi.html)
-* [Advanced Vi Cheat Sheet](http://www.lagmonster.org/docs/vi2.html)
-* [Linux Tutorial - Vi Cheat Sheet](http://ryanstutorials.net/linuxtutorial/cheatsheetvi.php) *a bit more nicely formatted than the above*
+* https://vim.rtorr.com/
+* http://vimsheet.com/
+* http://www.lagmonster.org/docs/vi.html
+* http://www.lagmonster.org/docs/vi2.html
+* http://ryanstutorials.net/linuxtutorial/cheatsheetvi.php
 
 
 
@@ -81,6 +77,7 @@ To learn more about `vim` so you can thoroughly impress your friends, family, an
 * [VIM Adventures](http://vim-adventures.com/) *VIM Adventures is an online game based on VIM's keyboard shortcuts. It's the "Zelda meets text editing" game. So come have some fun and learn some VIM!*
 * [Interactive Vim tutorial](http://www.openvim.com/)
 * [ShortcutFoo](https://www.shortcutfoo.com/) *Learn shortcuts and commands*
+* Type `vimtutor` into your terminal
 
 
 
