@@ -64,6 +64,7 @@ A collection of good tools/resources sprinkled throughout the Internet.
   * [JSDN](https://github.com/mindeavor/jsdn) JavaScript Diagram Notation; extremely helpful when learning about "pass by value" vs "pass by reference"
   * [What the heck is the event loop, anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
   * [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS) by Kyle Simpson
+  * [Professor Frisby's Mostly Adequate Guide to Functional Programming](https://github.com/MostlyAdequate/mostly-adequate-guide)
 
 * Keyboard
   * [shortcutFoo](https://www.shortcutfoo.com/) Learn shortcuts and commands
