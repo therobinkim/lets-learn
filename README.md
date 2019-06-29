@@ -7,8 +7,8 @@ A collection of good tools/resources sprinkled throughout the Internet.
   * [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
   * [How Do I Strengthen My Knowledge of Data Structures and Algorithms](http://www.forbes.com/sites/quora/2013/07/03/how-do-i-strengthen-my-knowledge-of-data-structures-and-algorithms/)
   * [VisuAlgo](http://visualgo.net/) visualising data structures and algorithms through animation
-* Angular
-  * [John Papa's Angular Style Guide](https://github.com/johnpapa/angular-styleguide)
+* AngularJS
+  * [John Papa's AngularJS Style Guide](https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md)
   * [Factory vs Service](https://toddmotto.com/factory-versus-service)
 * API
   * [Dash](https://kapeli.com/dash) Dash is an API Documentation Browser and Code Snippet Manager. Dash stores snippets of code and instantly searches offline documentation sets for 150+ APIs (for a full list, see below). You can even generate your own docsets or request docsets to be included.
