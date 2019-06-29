@@ -23,7 +23,7 @@ A collection of good tools/resources sprinkled throughout the Internet.
   * [API Stylebook: Design Guidelines](http://apistylebook.com/design/guidelines/)
   * [The Architecture of Open Source Applications](http://aosabook.org/en/index.html)
   * [HiredInTech](http://www.hiredintech.com/system-design/) Learn our 4-step process to cracking any system design question. 
-  * [Grokking the System Design Interview](http://systemdesigninterview.com)
+  * [Grokking the System Design Interview](http://systemdesigninterview.com) (paid)
 
 * Command Line
   * [explainshell](http://explainshell.com/) write down a command-line to see the help text that matches each argument
@@ -63,6 +63,7 @@ A collection of good tools/resources sprinkled throughout the Internet.
 * JavaScript
   * [JSDN](https://github.com/mindeavor/jsdn) JavaScript Diagram Notation; extremely helpful when learning about "pass by value" vs "pass by reference"
   * [What the heck is the event loop, anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+  * [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS) by Kyle Simpson
 
 * Keyboard
   * [shortcutFoo](https://www.shortcutfoo.com/) Learn shortcuts and commands
