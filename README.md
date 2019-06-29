@@ -84,6 +84,9 @@ A collection of good tools/resources sprinkled throughout the Internet.
 * Terminal
   * See _Command Line_
 
+* Testing
+  * [Testing JavaScript with KCD](http://testingjavascript.com) (paid)
+
 * Tools for Practice
   * [JSONPlaceholder](http://jsonplaceholder.typicode.com/) fake online REST API for testing and prototyping
 
