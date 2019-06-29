@@ -19,7 +19,9 @@ A collection of good tools/resources sprinkled throughout the Internet.
 * Architecture/Design
   * [API Stylebook: Design Guidelines](http://apistylebook.com/design/guidelines/)
   * [The Architecture of Open Source Applications](http://aosabook.org/en/index.html)
-  * [HiredInTech](http://www.hiredintech.com/system-design/) Learn our 4-step process to cracking any system design question.  
+  * [HiredInTech](http://www.hiredintech.com/system-design/) Learn our 4-step process to cracking any system design question. 
+  * [Grokking the System Design Interview](http://systemdesigninterview.com)
+
 * Database
   * [Essential SQL](http://www.essentialsql.com/getting-started/) Get Started Learning SQL
   * [PostgreSQL Exercises](https://pgexercises.com/)
