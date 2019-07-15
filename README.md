@@ -51,6 +51,7 @@ A collection of good tools/resources sprinkled throughout the Internet.
 * Interview Guide
   * [andreis/interview](https://github.com/andreis/interview)
   * [adam-s/js-interview-review](https://github.com/adam-s/js-interview-review) What Do I Need to Know to Ace a JavaScript Interview?
+  * [Salary strategies everyone in tech already knows — but you don't](https://teamcandor.com/salary/guide/) Win $20,000+ just by asking the right way. Learn to speak the language of tech compensation.
 
 * Interview Questions
   * [Code Wars](http://www.codewars.com/) `technical` `code challenge`
