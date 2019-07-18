@@ -29,6 +29,9 @@ A collection of good tools/resources sprinkled throughout the Internet.
   * [explainshell](http://explainshell.com/) write down a command-line to see the help text that matches each argument
   * [Ops School](http://www.opsschool.org/en/latest/unix_101.html)
 
+* Computer Science
+  * [Teach Yourself Computer Science](https://teachyourselfcs.com/) from Bradfield School of Computer Science in San Francisco, CA
+
 * Database
   * [Essential SQL](http://www.essentialsql.com/getting-started/) Get Started Learning SQL
   * [PostgreSQL Exercises](https://pgexercises.com/)
