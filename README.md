@@ -24,6 +24,7 @@ A collection of good tools/resources sprinkled throughout the Internet.
   * [The Architecture of Open Source Applications](http://aosabook.org/en/index.html)
   * [HiredInTech](http://www.hiredintech.com/system-design/) Learn our 4-step process to cracking any system design question. 
   * [Grokking the System Design Interview](http://systemdesigninterview.com) (paid)
+  * [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.
 
 * Command Line
   * [explainshell](http://explainshell.com/) write down a command-line to see the help text that matches each argument
