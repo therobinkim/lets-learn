@@ -84,6 +84,7 @@ A collection of good tools/resources sprinkled throughout the Internet.
   * [Code Cartoons](https://code-cartoons.com/) Learn code concepts via cartoon
   * [React Storybook](https://github.com/kadirahq/react-storybook) Isolate your React UI Component development from the main app
   * [Kent C Dodd's blog](https://kentcdodds.com/)
+  * [sudheerj/reactjs-interview-questions](https://github.com/sudheerj/reactjs-interview-questions)
 
 * Reactive Programming
   * [RxMarbles](http://rxmarbles.com/) Interactive diagrams of Rx Observables
