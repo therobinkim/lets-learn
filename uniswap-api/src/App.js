@@ -6,6 +6,7 @@ const GRAPH_API = 'https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2';
 
 const GET_TOKEN_DAY_DATAS = {};
 
+// ..."Ian Laphan fan token" and "generalize fix for rebass tokens" are weird symbol names
 const GET_TOKENS = {"query":"{\n  tokens(first: 10, orderBy: tradeVolumeUSD, orderDirection: desc) {\n    id\n    symbol\n    name\n    tradeVolumeUSD\n    untrackedVolumeUSD\n  }\n}","variables":null,"extensions":{"headers":null}};
 
 const states = {
@@ -14,7 +15,7 @@ const states = {
   ERROR: 'ERROR',
 }
 
-function App() {
+export default function App() {
   const [status, setStatus] = useState(states.LOADING);
   const [tokens, setTokens] = useState([]);
 
@@ -28,10 +29,11 @@ function App() {
     })
     .then(response => response.json())
     .then(response => {
-      setTokens(response);
+      setTokens(response.data.tokens);
+      setStatus(states.SUCCESS);
     })
     .catch((error)=>{
-      // log error to bug monitoring tool
+      // if prod, log error to bug monitoring tool
       console.error(error); // for dev only
       setStatus(states.ERROR);
     })
@@ -42,13 +44,39 @@ function App() {
         <h1>
           Top 10 tokens at Uniswap.
         </h1>
-        <p>{JSON.stringify(tokens)}</p>
-        {/* <TokensTable
+        {status === states.SUCCESS && <TokensTable
           tokens={tokens}
-        /> */}
+        />}
       </header>
     </div>
   );
 }
 
-export default App;
+
+function TokensTable({tokens}){
+  // ... I guess I'll use a table just so I can go fast?? 😂
+  return (
+    <table>
+      <thead>
+        <tr>
+          <th>Token Symbol</th>
+          <th>Price</th>
+          <th>1H % Price Change</th>
+          <th>1D % Price Change</th>
+          <th>7D % Price Change</th>
+        </tr>
+      </thead>
+      <tbody>
+        {tokens.map(token => (
+          <tr>
+            <td>{token.symbol}</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  );
+}
