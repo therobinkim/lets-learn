@@ -1,0 +1,7 @@
+[user]
+  name = Oompa Loompa
+  email = i_must_change_this@whatever.com
+[core]
+  excludesfile = ~/.gitignore_global
+[color]
+  ui = true
