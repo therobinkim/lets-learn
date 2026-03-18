@@ -11,6 +11,7 @@ A collection of small projects built to teach and explore different tools and te
 | [css/](css/) | CSS and DOM manipulation examples |
 | [error-messages/](error-messages/) | Exploring error handling in a Node app |
 | [express/](express/) | Recreating Express from scratch |
+| [jsdn/](jsdn/) | JavaScript Diagram Notation — the best resource for understanding closures, memory, and pass-by-reference ([gilbert/jsdn](https://github.com/gilbert/jsdn)) |
 | [jsonp/](jsonp/) | Learning JSONP and building a demo |
 | [node/](node/) | Building a Node.js server from scratch |
 | [promises/](promises/) | Intermediate/advanced Promise patterns |
